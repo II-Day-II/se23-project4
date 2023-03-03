@@ -39,7 +39,7 @@ For each team member, how much time was spent in
 
 |Category|Alexander|Carin|David|Filippa|Håvard|
 |--------|---------|-----|-----|-------|------|
-|1       |    2h   |  2h |  2h |       |   2h |
+|1       |    3h   |  3h |  3h |   1h  |   3h |
 |2       |         |     |     |       |      |     
 |3       |         |     |     |       |      | 
 |4       |         |     | 20m |       |      |
