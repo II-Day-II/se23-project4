@@ -39,14 +39,14 @@ For each team member, how much time was spent in
 
 |Category|Alexander|Carin|David|Filippa|Håvard|
 |--------|---------|-----|-----|-------|------|
-|1       |    3h   |  3h |  3h |   1h  |   3h |
-|2       |         |     |     |       |      |     
-|3       |         |     |     |       |      | 
+|1       |    3h   |  3h | 3h  |   1h  |   3h |
+|2       |         |     | 10m |       |      |     
+|3       |         |     | 20m |       |      | 
 |4       |         |     | 20m |       |      |
-|5       |         |     |     |       |      |
-|6       |         |     |     |       |      |
-|7       |         |     |     |       |      |
-|8       |         |     |     |       |      |
+|5       |         |     | 4h  |       |      |
+|6       |         |     | 1h  |       |      |
+|7       |         |     | 1h  |       |      |
+|8       |         |     | 10m |       |      |
 
 1. plenary discussions/meetings;
 
