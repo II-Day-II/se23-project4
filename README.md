@@ -44,7 +44,7 @@ For each team member, how much time was spent in
 |3       |         |     | 20m |       |      | 
 |4       |         |     | 20m |       |      |
 |5       |         |     | 5h  |       |      |
-|6       |         |     |3.5h |       |      |
+|6       |         |     |4.5h |       |      |
 |7       |         |     |1.5h |       |      |
 |8       |         |     | 30m |       |      |
 
@@ -156,6 +156,7 @@ the calculation of the stride between ticks had some unforseen consequences that
 
 - What are your main take-aways from this project? What did you learn?
     - It's very hard to determine the extent of the changes you might have to implement to resolve an issue unless you are intimately familiar withe code base.
+    - This was more of an exercise in code archeology, trying to find at what point the bug was introduced and what other implications reverting to the old way might have. Luckily, it seems it was just an attempt to prettify the code that happened to be mathematically incorrect, but did not directly affect anything else in the code.
      
 
 - How did you grow as a team, using the Essence standard to evaluate yourself?
