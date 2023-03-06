@@ -43,10 +43,10 @@ For each team member, how much time was spent in
 |2       |         |     | 10m |       |      |     
 |3       |         |     | 20m |       |      | 
 |4       |         |     | 20m |       |      |
-|5       |         |     | 4h  |       |      |
-|6       |         |     | 1h  |       |      |
-|7       |         |     | 1h  |       |      |
-|8       |         |     | 10m |       |      |
+|5       |         |     | 5h  |       |      |
+|6       |         |     | 2h  |       |      |
+|7       |         |     |1.5h |       |      |
+|8       |         |     | 30m |       |      |
 
 1. plenary discussions/meetings;
 
