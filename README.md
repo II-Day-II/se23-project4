@@ -81,6 +81,15 @@ Scope: This affects mostly downstream projects, since it's a front-end bug. As s
 
 ## Requirements for the new feature or requirements affected by functionality being refactored
 
+Since the issue concerns resolving a bug, there are mainly two requirements:
+
+#### 1. **Add ticks to the y-axis**
+With the given parameters, the solution should ensure that the y-axis of the logplot is visible. The solution should not affect or change anything else that is not connected to this bug. 
+
+#### 2. **Add tests connected to the problem**
+Since no previous tests were connected to the problem, additional tests should be added to provide more coverage to the relevant part of the bug. This ensures that similar bugs are caught in the future. 
+
+
 Optional (point 3): trace tests to requirements.
 
 ## Code changes
