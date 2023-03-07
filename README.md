@@ -175,7 +175,7 @@ the calculation of the stride between ticks had some unforseen consequences that
      
 
 - How did you grow as a team, using the Essence standard to evaluate yourself?
-    - see the TODO(ESSENCE DOCUMENT)
+    - see the [essence document](./ESSENCE.md)
 
  
 Optional (point 6): How would you put your work in context with best software engineering practice?
