@@ -44,7 +44,7 @@ For each team member, how much time was spent in
 |3       |         |     | 30m |       |      | 
 |4       |         |     | 30m |       |      |
 |5       |         |     | 7h  |       |      |
-|6       |         |     |4.5h |       |      |
+|6       |         |     | 5h  |       |      |
 |7       |         |     |1.5h |       |      |
 |8       |         |     |1.5h |       |      |
 |9       |         |     |Setup all handled by pip, no manual dependency handling |       |      |
@@ -153,6 +153,9 @@ After the fix:
 ```
 ========================================================================== 7627 passed, 1640 skipped, 13 xfailed in 310.46s (0:05:10) ==========================================================================
 ```
+
+Note that we had to change the tests to use `assert_almost_equal` instead of `assert_array_equal` in order for the tests to pass on matplotlib's CI on Linux, 
+while the original tests that produced the above output worked correctly on all group members' computers (Mac, Windows, Linux).
 
 ## UML class diagram and its description
 
