@@ -40,13 +40,14 @@ For each team member, how much time was spent in
 |Category|Alexander|Carin|David|Filippa|Håvard|
 |--------|---------|-----|-----|-------|------|
 |1       |    3h   |  3h | 3h  |   1h  |   3h |
-|2       |         |     | 20m |       |      |     
-|3       |         |     | 20m |       |      | 
-|4       |         |     | 20m |       |      |
-|5       |         |     | 5h  |       |      |
+|2       |         |     | 1h  |       |      |     
+|3       |         |     | 30m |       |      | 
+|4       |         |     | 30m |       |      |
+|5       |         |     | 7h  |       |      |
 |6       |         |     |4.5h |       |      |
 |7       |         |     |1.5h |       |      |
-|8       |         |     | 30m |       |      |
+|8       |         |     |1.5h |       |      |
+|9       |         |     |Setup all handled by pip, no manual dependency handling |       |      |
 
 1. plenary discussions/meetings;
 
@@ -62,7 +63,9 @@ For each team member, how much time was spent in
 
 7. writing code;
 
-8. running code?
+8. running code;
+
+9. further comments.
 
 For setting up tools and libraries (step 4), enumerate all dependencies
 you took care of and where you spent your time, if that time exceeds
@@ -96,8 +99,8 @@ Optional (point 3): trace tests to requirements.
 
 ### Patch
 
-The solution is implemented with this commit:
-[View the diff](https://github.com/haval0/matplotlib/pull/3/commits/cd3df12b050a2bae3ebfebca983e478bc9bb4dbc)
+The solution is implemented in a fork of the repo. The changes made are visible here:
+[View the diff](https://github.com/matplotlib/matplotlib/compare/main...haval0:matplotlib:issue/24092#diff-fd4f809a4a2ca8b97875eff013bac232c55ca3f92f165117f778960ca1795869)
 
 The code now passes the new tests and all of the old tests.
 
