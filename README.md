@@ -87,13 +87,16 @@ Scope: This affects mostly downstream projects, since it's a front-end bug. As s
 Since the issue concerns resolving a bug, there are mainly two requirements:
 
 #### 1. **Add ticks to the y-axis**
-For some input parameters, the method `tick_values` in class `LogLocator` gives the wrong output. The solution should therefore ensure that `tick_values` gives the correct output, so that the y-axis of the logplot is visible. The solution should not affect or change anything else that is not connected to this bug. 
+For some input parameters, the method `tick_values` in class `LogLocator` gives the wrong output. The solution should therefore ensure that `tick_values` gives the correct output, so that the y-axis of the logplot is visible. 
 
-#### 2. **Add tests connected to the problem**
+#### 2. **Make sure the change doesn't affect intended behavior**
+The solution should not affect or change anything else that is not connected to this bug. 
+
+#### 3. **Add tests connected to the problem**
 Since no previous tests were connected to the problem, additional tests should be added to check that `tick_values` returns the correct output. This provides more coverage and ensures that similar bugs are caught in the future. 
 
 
-Optional (point 3): trace tests to requirements.
+The tests written correspond to point 3 above. The first test, `test_tick_values_correct`, corresponds to point 2, as it checks that the behavior that occurred before the fix wasn't affected by the fix. The second test, `test_tick_values_not_empty`, corresponds to point 1, as it checks that the function behaves as intended in the scenario it previously did not.
 
 ## Code changes
 
@@ -156,6 +159,8 @@ After the fix:
 
 Note that we had to change the tests to use `assert_almost_equal` instead of `assert_array_equal` in order for the tests to pass on matplotlib's CI on Linux, 
 while the original tests that produced the above output worked correctly on all group members' computers (Mac, Windows, Linux).
+
+A pull request into the upstream repository was created [here](https://github.com/matplotlib/matplotlib/pull/25405).
 
 ## UML class diagram and its description
 
