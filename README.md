@@ -40,13 +40,13 @@ For each team member, how much time was spent in
 |Category|Alexander|Carin|David|Filippa|Håvard|
 |--------|---------|-----|-----|-------|------|
 |1       |    3h   |  3h | 3h  |   1h  |   3h |
-|2       |         |     | 1h  |       |      |     
-|3       |         |     | 30m |       |      | 
-|4       |         |     | 30m |       |      |
-|5       |         |     | 7h  |       |      |
-|6       |         |     | 7h  |       |      |
-|7       |         |     |1.5h |       |      |
-|8       |         |     |1.5h |       |      |
+|2       |    1h   |     | 1h  |       |      |     
+|3       |    5h   |     | 30m |       |      | 
+|4       |   30m   |     | 30m |       |      |
+|5       |    8h   |     | 7h  |       |      |
+|6       |    0h   |     | 7h  |       |      |
+|7       |    3h   |     |1.5h |       |      |
+|8       |    2h   |     |1.5h |       |      |
 |9       |         |     |Setup all handled by pip, no manual dependency handling |       |      |
 
 1. plenary discussions/meetings;
