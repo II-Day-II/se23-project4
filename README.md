@@ -164,9 +164,11 @@ A pull request into the upstream repository was created [here](https://github.co
 
 ## UML class diagram and its description
 
-It is determined that a class diagram is superflous here, since the bug didn't require any large refactorings to resolve.
+Mainly three classes were relevant to understanding and solving the problem. The relations are shown in this simplified UML diagram:
 
-Anyway, an automatically generated diagram of some of the relevant classes is attached below.
+![Simplified UML class diagram](./simplified-uml.png)
+
+An automatically generated diagram (more detailed) of some of the relevant classes is also attached below.
 
 ![UML class diagram](./umldiag.svg)
 
