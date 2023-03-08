@@ -176,19 +176,23 @@ An automatically generated diagram (more detailed) of some of the relevant class
 
 Only the `LogLocator` class is affected, since the issue is rooted in mathematics, and not a design issue.
 A [previous attempt to simplify](https://github.com/matplotlib/matplotlib/commit/a06f343dee3cebf035b74f65ea00b8842af448e9) 
-the calculation of the stride between ticks had some unforseen consequences that were not caught by tests. Reverting this change seems to have resolved the issue. It was also refactored to an equivalent, more functional style.
+the calculation of the stride between ticks had some unforseen consequences that were not caught by tests. Reverting this change seems to have resolved the issue. It 
+was also refactored to an equivalent, more functional style. The review by the matplotlib team later suggested a mathematically correct simplification that could be 
+used instead.
 
 ## Overall experience
 
 - What are your main take-aways from this project? What did you learn?
     - It's very hard to determine the extent of the changes you might have to implement to resolve an issue unless you are intimately familiar withe code base.
-    - This was more of an exercise in code archeology, trying to find at what point the bug was introduced and what other implications reverting to the old way might have. Luckily, it seems it was just an attempt to prettify the code that happened to be mathematically incorrect, but did not directly affect anything else in the code.
+    - This was more of an exercise in code archeology, trying to find at what point the bug was introduced and what other implications reverting to the old way might 
+    have. Luckily, it seems it was just an attempt to prettify the code that happened to be mathematically incorrect, but did not directly affect anything else in the 
+    code.
+    - There were no real issues with the tools used or when communicating with the matplotlib community. 
+    They were quite fast at responding with feedback when our PR initially didn't pass the CI checks, though at first it looked like they might start bickering about
+    what assertion function should be used in the tests. 
      
 
 - How did you grow as a team, using the Essence standard to evaluate yourself?
     - see the [essence document](./ESSENCE.md)
 
- 
-Optional (point 6): How would you put your work in context with best software engineering practice?
 
-Optional (point 7): Is there something special you want to mention here?
