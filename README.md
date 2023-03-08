@@ -36,17 +36,16 @@ Matplotlib is a python library for creating graphs and plots easily.
 
 For each team member, how much time was spent in
 
-
 |Category|Alexander|Carin|David|Filippa|Håvard|
 |--------|---------|-----|-----|-------|------|
 |1       |    3h   |  3h | 3h  |   1h  |   3h |
-|2       |         |     | 1h  |       |      |     
-|3       |         |     | 30m |       |      | 
-|4       |         |     | 30m |       |      |
-|5       |         |     | 7h  |       |      |
-|6       |         |     | 5h  |       |      |
-|7       |         |     |1.5h |       |      |
-|8       |         |     |1.5h |       |      |
+|2       |         |  3h | 1h  |       |      |     
+|3       |         |  3h | 30m |       |      | 
+|4       |         | 20m | 30m |       |      |
+|5       |         | 12h | 7h  |       |      |
+|6       |         |  1h | 5h  |       |      |
+|7       |         |  2h |1.5h |       |      |
+|8       |         |  1h |1.5h |       |      |
 |9       |         |     |Setup all handled by pip, no manual dependency handling |       |      |
 
 1. plenary discussions/meetings;
@@ -84,7 +83,7 @@ Scope: This affects mostly downstream projects, since it's a front-end bug. As s
 
 ## Requirements for the new feature or requirements affected by functionality being refactored
 
-Since the issue concerns resolving a bug, there are mainly two requirements:
+Since the issue concerns resolving a bug, there are mainly three requirements:
 
 #### 1. **Add ticks to the y-axis**
 For some input parameters, the method `tick_values` in class `LogLocator` gives the wrong output. The solution should therefore ensure that `tick_values` gives the correct output, so that the y-axis of the logplot is visible. 
