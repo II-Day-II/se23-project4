@@ -165,6 +165,11 @@ A pull request into the upstream repository was created [here](https://github.co
 
 It is determined that a class diagram is superflous here, since the bug didn't require any large refactorings to resolve.
 
+Anyway, an automatically generated diagram of some of the relevant classes is attached below.
+
+![UML class diagram](./umldiag.svg)
+
+
 ### Key changes/classes affected
 
 Only the `LogLocator` class is affected, since the issue is rooted in mathematics, and not a design issue.
