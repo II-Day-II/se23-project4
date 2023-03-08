@@ -44,7 +44,7 @@ For each team member, how much time was spent in
 |3       |         |     | 30m |       |      | 
 |4       |         |     | 30m |       |      |
 |5       |         |     | 7h  |       |      |
-|6       |         |     | 5h  |       |      |
+|6       |         |     | 7h  |       |      |
 |7       |         |     |1.5h |       |      |
 |8       |         |     |1.5h |       |      |
 |9       |         |     |Setup all handled by pip, no manual dependency handling |       |      |
@@ -165,6 +165,11 @@ A pull request into the upstream repository was created [here](https://github.co
 ## UML class diagram and its description
 
 It is determined that a class diagram is superflous here, since the bug didn't require any large refactorings to resolve.
+
+Anyway, an automatically generated diagram of some of the relevant classes is attached below.
+
+![UML class diagram](./umldiag.svg)
+
 
 ### Key changes/classes affected
 
